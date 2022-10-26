@@ -1,0 +1,32 @@
+[
+   {
+      "title": "Ravioles",
+      "price": 270,
+      "thumbnail": "https://i.postimg.cc/pL63Zpv6/ravioles.jpg",
+      "id": 1
+   },
+   {
+      "title": "Salsas",
+      "price": 200,
+      "thumbnail": "https://i.postimg.cc/J4kD37g4/salsas.webp",
+      "id": 2
+   },
+   {
+      "title": "Fideos",
+      "price": 250,
+      "thumbnail": "https://i.postimg.cc/SQn2TPc1/fideos.jpg",
+      "id": 3
+   },
+   {
+      "title": "Ñoquis",
+      "price": 250,
+      "thumbnail": "https://i.postimg.cc/fb3QnY5s/oquis.webp",
+      "id": 4
+   },
+   {
+      "title": "Sorrentinos",
+      "price": 350,
+      "thumbnail": "https://i.postimg.cc/pV8Rq927/sorrentinos.jpg",
+      "id": 5
+   }
+]
