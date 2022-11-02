@@ -3,7 +3,8 @@ require('dotenv').config()
 const express = require('express')
 const app = express()
 
-const Persons = require('./src/services/persons.service');
+const Productos = require('./storage/products');
+
 
 const logger = require('morgan')
 
@@ -35,14 +36,14 @@ app.use(logger('dev'))
 
 //get de pug, puse "/html" porque "/" ya esta en uso
 app.get('/registro', (_req, res) => {
-    const persons = new Persons
-    res.render('pages/index', {persons: persons.getPersons()})
+    const productos = new Productos
+    res.render('pages/index', {productos: productos.getProductos()})
 });
 
-app.post('/personas', (req, res) =>{
-    const {name, lastname, age} = req.body;
-    const persons = new Persons();
-    persons.savePerson({ name, lastname, age})
+app.post('/productos', (req, res) =>{
+    const {name, url, price} = req.body;
+    const productos = new Productos();
+    productos.saveProducto({ name, url, price})
     res.redirect('/registro');
 
 })

@@ -127,3 +127,19 @@ let test5 = async () => {
     await products.createOrReset('clean container')
 }
 //test5()
+
+const productos = []
+
+class Productos{
+    constructor(){}
+
+    getProductos(){
+        return productos
+    }
+
+    saveProducto(producto){
+        productos.push(producto);
+        return producto;
+    }
+}
+module.exports = Productos;

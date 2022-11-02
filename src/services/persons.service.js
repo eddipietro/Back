@@ -1,4 +1,4 @@
-
+/*
 const persons = []
 
 class Persons{
@@ -15,3 +15,4 @@ class Persons{
 }
 
 module.exports = Persons;
+*/
