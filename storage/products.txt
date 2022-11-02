@@ -1,7 +1,7 @@
 [
    {
       "title": "Ravioles",
-      "price": 270,
+      "price": 320,
       "thumbnail": "https://i.postimg.cc/pL63Zpv6/ravioles.jpg",
       "id": 1
    },
