@@ -128,6 +128,7 @@ let test5 = async () => {
 }
 //test5()
 
+//Array de lista de poductos desafio 10 (motores de plantillas)
 const productos = []
 
 class Productos{
